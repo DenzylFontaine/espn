@@ -3,8 +3,8 @@
 	<head>
 		<title>ESPN Entity Relationship</title>
 	</head>
-	<h1>ESPN Entity Relationship</h1>
 	<body>
+		<h1>ESPN Entity Relationship</h1>
 		<img src="Entity Relationship Diagram.svg" />
 	</body>
 </html>
