@@ -19,7 +19,7 @@
 			by scoring points and making free throws than the other team a win can be achieved.<br/>
 				<table>
 				<tr>Important Data Model: What is required to get a win?</tr>
-				<td></td>
+				<td>Commit as little fouls and turnovers as posible.</td>
 				</table>
 		</p>
 	</div>
