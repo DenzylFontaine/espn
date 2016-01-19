@@ -16,13 +16,13 @@
 	<div>
 		<h3>Use Case</h3>
 		<p>A team needs to achieve a win by outscoring the other team,<br/>
-			by scoring points and making free throws than the other team a win can be achieved.<br/>
+			by scoring points and making free throws than the other team a win can be achieved.<p></p>
 				<table>
-				<tr>Important Data Model: What is required to get a win?</tr>
-				<td>Commit as little fouls and turnovers as posible.</td>
-				<td>Score as more and basketball.</td>
+				<tr>Important Data Model: What is required to get a win?
+					<td>Commit as little fouls and turnovers as posible.</td>
+					<td>Score as more and basketball.</td>
+				</tr>
 				</table>
-		</p>
 	</div>
 	</body>
 </html>
