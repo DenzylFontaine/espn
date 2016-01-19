@@ -20,6 +20,7 @@
 				<table>
 				<tr>Important Data Model: What is required to get a win?</tr>
 				<td>Commit as little fouls and turnovers as posible.</td>
+				<td>Score as more and basketball.</td>
 				</table>
 		</p>
 	</div>
