@@ -11,12 +11,16 @@
 		Also any males who is a fan of one of the NBA's many stars.<br/>
 		The NBA would also like to have a large portion of female viewers as well.<br/>
 		Mostly teenage to middle age women who have played before or simply fans of the game.<br/>
-		Much like the men the women would also have favorite players and stars who thwy would tune in to watch.
+		Much like the men the women would also have favorite players and stars who they would tune in to watch.
 		</P>
 	<div>
 		<h3>Use Case</h3>
-		<p>
-
+		<p>A team needs to achieve a win by outscoring the other team,<br/>
+			by scoring points and making free throws than the other team a win can be achieved.<br/>
+				<table>
+				<tr>Important Data Model: What is required to get a win?</tr>
+				<td></td>
+				</table>
 		</p>
 	</div>
 	</body>
