@@ -5,10 +5,11 @@ html {
 body {
 	margin-right: 50%;
 	position: static;
+	font-size: large;
 }
 img {
 	height: 500px;
 	width: 500px;
 	float: left;
-	padding: 5px;
+	padding: 20 px;
 }
