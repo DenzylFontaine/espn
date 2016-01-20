@@ -6,10 +6,15 @@ html {
 body {
 	font-size: large;
 }
+
 img {
 	height: 500px;
 	width: 500px;
 	float: left;
 	border: dashed black;
 	margin-right: 20px;
+}
+
+h2,h3,h4 {
+	text-align: center;
 }
