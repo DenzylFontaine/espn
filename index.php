@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<meta charset="utf-8">
+		<link href="stylesheet.css" rel="stylesheet" type="text/css" />
 		<title>ESPN Entity Relationship</title>
 	</head>
 	<body>
