@@ -23,10 +23,10 @@
 			<br/>
 			<h4>
 				<strong>Important Data Model: What is required to get a win?</strong>
-			</4>
-			<ul>
-				<li>Commit as little fouls and turnovers as posible.</li>
-			<li>Score as more and basketball</li>
-			</ul>
+			</h4>
+				<ul>
+					<li>Commit as little fouls and turnovers as posible.</li>
+					<li>Score as more and basketball</li>
+				</ul>
 	</body>
 </html>
