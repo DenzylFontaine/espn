@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<h1>ESPN Entity Relationship</h1>
-		<img src="teamentity.svg" >
+		<img src="teamentity.svg"/>
 		<img class="pic" src="http://photon.101medialablimit.netdna-cdn.com/hypebeast.com/image/2015/12/kobe-bryant-greatest-players-list-1.jpg?w=1024"/>
 		<h2>Persona</h2>
 		<P>The crowd the NBA would like to attract is men of all ages who wish to see basketball played at its highest level.<br/>
