@@ -24,9 +24,11 @@
 			<h4>
 				<strong>Important Data Model: What is required to get a win?</strong>
 			</h4>
-				<ul>
+				<p>
+					<ul>
 					<li>Commit as little fouls and turnovers as posible.</li>
 					<li>Score as more and basketball</li>
 				</ul>
+		</p>
 	</body>
 </html>
