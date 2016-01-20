@@ -13,16 +13,15 @@
 		Mostly teenage to middle age women who have played before or simply fans of the game.<br/>
 		Much like the men the women would also have favorite players and stars who they would tune in to watch.
 		</P>
-	<div>
+		<br/>
 		<h3>Use Case</h3>
 		<p>A team needs to achieve a win by outscoring the other team,<br/>
 			by scoring points and making free throws than the other team a win can be achieved.</p>
-				<table>
-				<tr>Important Data Model: What is required to get a win?
-					<td>Commit as little fouls and turnovers as posible.</td>
-					<td>Score as more and basketball.</td>
-				</tr>
-				</table>
-	</div>
+			<br/>
+			<strong>Important Data Model: What is required to get a win?</strong>
+			<ul>
+				<li>Commit as little fouls and turnovers as posible.</li>
+			<li>Score as more and basketball</li>
+			</ul>
 	</body>
 </html>
