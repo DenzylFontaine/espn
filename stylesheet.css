@@ -7,7 +7,8 @@ body {
 	position: static;
 }
 img {
-	height: 350px;
-	width: 350px;
+	height: 500px;
+	width: 500px;
 	float: left;
+	padding: 5px;
 }
