@@ -4,5 +4,6 @@ html {
 
 body {
 	margin-right: 50%;
+	position: static;
 }
 
