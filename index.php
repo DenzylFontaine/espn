@@ -15,6 +15,7 @@
 		Mostly teenage to middle age women who have played before or simply fans of the game.<br/>
 		Much like the men the women would also have favorite players and stars who they would tune in to watch.
 		</P>
+		<img class="pic" src="http://photon.101medialablimit.netdna-cdn.com/hypebeast.com/image/2015/12/kobe-bryant-greatest-players-list-1.jpg?w=1024"
 		<br/>
 		<h3>Use Case</h3>
 		<p>A team needs to achieve a win by outscoring the other team,<br/>
