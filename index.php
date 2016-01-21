@@ -39,7 +39,7 @@
 								<li>teamawayid (foreign key)</li>
 								<li>teamhomepointsscored</li>
 								<li>teamawaypointsscored</li>
-								</ul>
+							</ul>
 						</ul>
 	</body>
 </html>
