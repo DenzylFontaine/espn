@@ -22,7 +22,11 @@
 					<strong>Important Data Model</strong>
 				</h4>
 				<ul>
-					<li></li>
+					<li>For Teams
+					<li>teamid</li>
+					<li>teamname</li>
+					<li>teamhomecity</li>
+					</li>
 				</ul>
 	</body>
 </html>
