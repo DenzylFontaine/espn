@@ -24,7 +24,7 @@
 				<ul>
 					<li>For Teams
 					<ul>
-					<li>teamid</li>
+					<li>teamid(primary key)</li>
 					<li>teamname</li>
 					<li>teamhomecity</li>
 					</ul>
@@ -32,11 +32,11 @@
 						<ul>
 							<li> For Games
 							<ul>
-								<li>gameid</li>
+								<li>gameid(primary key)</li>
 								<li>date/time</li>
 								<li>location</li>
-								<li>teamhomeid</li>
-								<li>teamawayid</li>
+								<li>teamhomeid(foreign key)</li>
+								<li>teamawayid(foreign key)</li>
 								<li>teamhomepointsscored</li>
 								<li>teamawaypointsscored</li>
 								</ul>
