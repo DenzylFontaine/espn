@@ -6,7 +6,7 @@
 		<title>ESPN Entity Relationship</title>
 	</head>
 	<body>
-		<h1>ESPN Entity Relationship</h1>
+		<h1>ESPN Entity Relationships</h1>
 		<img src="espn.svg">
 		<img class="pic" src="http://photon.101medialablimit.netdna-cdn.com/hypebeast.com/image/2015/12/kobe-bryant-greatest-players-list-1.jpg?w=1024"/>
 			<h2>Persona</h2>
