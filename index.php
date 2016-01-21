@@ -37,8 +37,8 @@
 								<li>location</li>
 								<li>teamhomeid</li>
 								<li>teamawayid</li>
-								<li>teamhomepointsscored<li>
-								<li>teamawaypointsscored<li>
+								<li>teamhomepointsscored</li>
+								<li>teamawaypointsscored</li>
 								</ul>
 						</ul>
 	</body>
