@@ -15,10 +15,11 @@
 			<p>One of these women is Jackie, she is a 29yr old who works night shifts at target. Her favorite player is 			Jimmy Butler. However, Bulls games and highlights are hard to come by in New Orleans. To get her Bulls news 			Jackie frequents the ESPN channel and website. During work she checks the ESPN app to get scores and even 			watch the games if she has enough time during her breaks. Jackie is the kind of fan ESPN expects to browse 			their webpages.
 			</p>
 				<h3>Use Case</h3>
-				<p></p>
+				<p>Jackie will log onto our website mostly likely from her cell phone. She will browse her way onto the 				section for the Chicago Bulls. There she will check the latest news, injuries, statistics and upcoming 				games fo the Bulls. Then she will watch a few minutes of the current live game until she has to return to 				work.
+				</p>
 				<br/>
 				<h4>
-					<strong>Important Data Model: What is required to get a win?</strong>
+					<strong>Important Data Model</strong>
 				</h4>
 				<ul>
 					<li></li>
