@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<h1>ESPN Entity Relationship</h1>
-		<img src="espn-2.svg">
+		<img src="espn.svg">
 		<img class="pic" src="http://photon.101medialablimit.netdna-cdn.com/hypebeast.com/image/2015/12/kobe-bryant-greatest-players-list-1.jpg?w=1024"/>
 			<h2>Persona</h2>
 			<P>The users ESPN hopes to pull towards its NBA section are males of all ages who enjoy watching basketball 			played at its highest level. The stars are also a main attraction for users, some people just like one player 			not a team, ESPN also provides individual statistics for these users. Women are also part of the user base 			for ESPN, the site is for (but not exclusive) younger to middle who may have played basketball before or are 			just fans of the game. Many women also have favorite players just like the men, ESPN wants this site is to be 			where these women go to find out what their favorite stars are up to.</p>
