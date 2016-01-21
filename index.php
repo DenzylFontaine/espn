@@ -23,10 +23,23 @@
 				</h4>
 				<ul>
 					<li>For Teams
+					<ul>
 					<li>teamid</li>
 					<li>teamname</li>
 					<li>teamhomecity</li>
-					</li>
+					</ul>
 				</ul>
+						<ul>
+							<li> For Games
+							<ul>
+								<li>gameid</li>
+								<li>date/time</li>
+								<li>location</li>
+								<li>teamhomeid</li>
+								<li>teamawayid</li>
+								<li>teamhomepointsscored<li>
+								<li>teamawaypointsscored<li>
+								</ul>
+						</ul>
 	</body>
 </html>
