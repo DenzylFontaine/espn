@@ -41,5 +41,5 @@
 								<li>teamawaypointsscored</li>
 								</ul>
 						</ul>
-	</body>'uhb
+	</body>
 </html>
