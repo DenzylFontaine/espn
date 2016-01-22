@@ -52,6 +52,28 @@ class Team {
 		}
 
 		// finally, if we get here we know its a valid id - save it to the object.
-		$this->TeamId = $newTeamId;
+		$this->teamId = $newTeamId;
+	}
+
+	/**
+	 * accessor method for teamname
+	 *
+	 * @return int value for teamname
+	 **/
+	public function getteamnameId(){
+		return($this->teamName);
+	}
+
+	/**
+	 * mutator method for teamName
+	 * @param int $newteamName new value for teamName
+	 * @throws invalidargumentexception if team name is not an integer
+	 * @throws rangeexception if team name is negative
+	 **/
+	public function setTeamName($teamName) {
+		//first apply the filter to the input
+		$newTeamName = filter_var($newTeamName, FILTER_VALIDATE_INT);
+
+
 	}
 }
