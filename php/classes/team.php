@@ -38,7 +38,7 @@ class Team {
 	 * @throws InvalidArgumentException if team id is not an integer
 	 * @throws RangeException if team id is negative
 	 **/
-	public function setTeamid($newTeamId){
+	public function setTeamId($newTeamId){
 		// first apply the filter to the input.
 		$newTeamId = filter_var($newTeamId, FILTER_VALIDATE_INT);
 
@@ -57,11 +57,11 @@ class Team {
 	}
 
 	/**
-	 * accessor method for teamname
+	 * accessor method for teamName
 	 *
-	 * @return int value for teamname
+	 * @return int value for teamName
 	 **/
-	public function getteamnameId(){
+	public function getteamName(){
 		return($this->teamName);
 	}
 
@@ -71,28 +71,55 @@ class Team {
 	 * @throws InvalidArgumentException if team name is not an integer
 	 * @throws RangeException if team name is negative
 	 **/
-	public function setTeamName($teamName){
+	public function setteamName($newTeamName){
 		//first apply the filter to the input
 		$newTeamName = filter_var($newTeamName, FILTER_VALIDATE_INT);
 
 	// if the filter_var() rejects the new id throw a rejection
-	if(newTeamName === false){
+	if($newTeamName === false){
 		throw(new InvalidArgumentException("team name is not an integer"));
 	}
 
 	//if the team name is out of range, throw an exception
-		if(newTeamName <=0) {
+		if($newTeamName <=0) {
 			throw(new RangeException("team name is not positive"));
 		}
 
-		// if we made it this far we know its a valid, - save it to the object
+		// if we made it this far we know its valid, - save it to the object
 	$this->teamName = $newTeamName;
+	}
+
+	/**
+	 * accessor method fo teamHomeCity
+	 *
+	 * @return int value for teamHomeCity
+	 **/
+	public function getteamHomeCity(){
+		return($this->teamHomeCity);
 	}
 
 	/**
 	 * mutator method for teamHomeCity
 	 *@param int $teamHomeCity new value for teamHomeCity
 	 *@throws InvalidArgumentException if team home city is not an integer
-	 *@throws RangeException
+	 *@throws RangeException if team home city is negative
 	 **/
+	public function setteamHomeCity($newTeamHomeCity){
+		// first apply the filter to the input
+		$newTeamHomeCity = filter_var($newTeamHomeCity, FILTER_VAR_INT);
+
+		//if the filter_var() rejects the new it throw a rejection
+		if($newTeamHomeCity === false){
+			throw(new InvalidArgumentException("team home city is not an integer"));
+		}
+
+		//if the team home city is out of range, make an exception
+		if($newTeamHomeCity <=0){
+			throw(new RangeException("team home city is out of range"));
+		}
+
+		// if we made it this far we know it valid, - save it to the object
+		$this->teamHomeCity = $newTeamHomeCity;
+	}
+
 }
