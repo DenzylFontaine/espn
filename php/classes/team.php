@@ -35,8 +35,8 @@ class Team {
 	/**
 	 *mutator method for team id
 	 * @param int $newTeamId new value of teamId
-	 * @throws invalidargumentexception if team id is not an integer
-	 * @throws rangeexception if team id is negative
+	 * @throws InvalidArgumentException if team id is not an integer
+	 * @throws RangeException if team id is negative
 	 **/
 	public function setTeamid($newTeamId){
 		// first apply the filter to the input.
@@ -47,7 +47,8 @@ class Team {
 			throw(new InvalidArgumentException("team id is not an integer"));
 		}
 
-		if ($newTeamId <=0) {
+		// if the team id is out of range, throw an exception
+		if($newTeamId <=0) {
 			throw(new RangeException("team id is not positive"));
 		}
 
@@ -67,13 +68,31 @@ class Team {
 	/**
 	 * mutator method for teamName
 	 * @param int $newteamName new value for teamName
-	 * @throws invalidargumentexception if team name is not an integer
-	 * @throws rangeexception if team name is negative
+	 * @throws InvalidArgumentException if team name is not an integer
+	 * @throws RangeException if team name is negative
 	 **/
-	public function setTeamName($teamName) {
+	public function setTeamName($teamName){
 		//first apply the filter to the input
 		$newTeamName = filter_var($newTeamName, FILTER_VALIDATE_INT);
 
-
+	// if the filter_var() rejects the new id throw a rejection
+	if(newTeamName === false){
+		throw(new InvalidArgumentException("team name is not an integer"));
 	}
+
+	//if the team name is out of range, throw an exception
+		if(newTeamName <=0) {
+			throw(new RangeException("team name is not positive"));
+		}
+
+		// if we made it this far we know its a valid, - save it to the object
+	$this->teamName = $newTeamName;
+	}
+
+	/**
+	 * mutator method for teamHomeCity
+	 *@param int $teamHomeCity new value for teamHomeCity
+	 *@throws InvalidArgumentException if team home city is not an integer
+	 *@throws RangeException
+	 **/
 }
