@@ -23,6 +23,36 @@ class Team {
 		 * @var int $teamhomecity
 		 **/
 	private $teamHomeCity;
+
+	/**
+	 * constructor for the team
+	 *
+	 * @param string $newTeamName string containing actual team data
+	 * @param string $newTeamName
+	 * @param null $newTeamHomeCity
+	 * @throws Exception if some other exception is thrown
+	 * @internal param mixed $newTeamId for Team or null
+	 * @internal param string $newHomeCity string containing actual team data
+	 */
+
+	public function __construct($newTeamName, $newTeamName, $newTeamHomeCity = null) {
+	try{
+		$this->setTeamId($newteamId);
+		$this->setTeamName($newTeamName);
+		$this->setTeamHomeCity($newTeamHomeCity);
+	} catch(InvalidArgumentException $invalidArgument) {
+		//rethrow the exception to caller
+		throw(new InvalidArgumentException ($invalidArgument->getMessage(),0,$invalidArgument));
+	} catch(RangeException $range) {
+		//rethrow exception to the caller
+		throw(new RangeException($range->getMessage(),0, $range));
+	} catch(Exception $exception){
+		//throw generic exception
+		throw(new Exception($exception->getMessage(),0, $exception));
+	}
+}
+
+
 	/**
 	 * accessor method for teamId
 	 *
