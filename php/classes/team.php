@@ -1,4 +1,5 @@
 <?php
+// namespace Edu\Cnm\Dfontaine1;
 /**
  *Team, one of the basketball teams to participate in a game.
  *
@@ -14,7 +15,7 @@ class Team {
 		 **/
 	private $teamId;
 		/**
-		 *teamnam
+		 *teamname
 		 * @var int $teamname
 		 **/
 	private $teamName;
@@ -58,7 +59,7 @@ class Team {
 	 *
 	 * @return int value for teamId
 	 **/
-	public function getteamId(){
+	public function getTeamId(){
 		return($this->teamId);
 	}
 
@@ -91,7 +92,7 @@ class Team {
 	 *
 	 * @return int value for teamName
 	 **/
-	public function getteamName(){
+	public function getTeamName(){
 		return($this->teamName);
 	}
 
@@ -101,7 +102,7 @@ class Team {
 	 * @throws InvalidArgumentException if team name is not an integer
 	 * @throws RangeException if team name is negative
 	 **/
-	public function setteamName($newTeamName){
+	public function setTeamName($newTeamName){
 		//first apply the filter to the input
 		$newTeamName = filter_var($newTeamName, FILTER_VALIDATE_INT);
 
@@ -124,7 +125,7 @@ class Team {
 	 *
 	 * @return int value for teamHomeCity
 	 **/
-	public function getteamHomeCity(){
+	public function getTeamHomeCity(){
 		return($this->teamHomeCity);
 	}
 
@@ -134,9 +135,9 @@ class Team {
 	 *@throws InvalidArgumentException if team home city is not an integer
 	 *@throws RangeException if team home city is negative
 	 **/
-	public function setteamHomeCity($newTeamHomeCity){
+	public function setTeamHomeCity($newTeamHomeCity){
 		// first apply the filter to the input
-		$newTeamHomeCity = filter_var($newTeamHomeCity, FILTER_VAR_INT);
+		$newTeamHomeCity = filter_var($newTeamHomeCity, FILTER_VALIDATE_INT);
 
 		//if the filter_var() rejects the new it throw a rejection
 		if($newTeamHomeCity === false){
