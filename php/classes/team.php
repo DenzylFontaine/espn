@@ -35,9 +35,9 @@ class Team {
 	 * @internal param string $newHomeCity string containing actual team data
 	 */
 
-	public function __construct($newTeamName, $newTeamName, $newTeamHomeCity = null) {
+	public function __construct($newTeamId, $newTeamName, $newTeamHomeCity = null) {
 	try{
-		$this->setTeamId($newteamId);
+		$this->setTeamId($newTeamId);
 		$this->setTeamName($newTeamName);
 		$this->setTeamHomeCity($newTeamHomeCity);
 	} catch(InvalidArgumentException $invalidArgument) {
